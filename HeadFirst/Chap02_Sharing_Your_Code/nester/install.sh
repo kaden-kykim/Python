@@ -1,0 +1,1 @@
+python3 $1 sdist && python3 $1 install
