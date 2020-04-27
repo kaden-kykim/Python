@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='nester-kaden',
-    version='1.1.2',
+    version='1.2.0',
     py_modules=['nester'],
     author='kaden-kykim',
     author_email='kaden.kykim@gmail.com',

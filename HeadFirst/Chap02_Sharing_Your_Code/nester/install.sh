@@ -1,7 +1,9 @@
 PY_DIST_PKG_NAME="nester-kaden"
 
-if [ $1 = "install" ]; then
+if [ $1 = "install-local" ]; then
   pip3 install .
+elif [ $1 = "install-repo" ]; then
+  pip3 install ${PY_DIST_PKG_NAME}
 elif [ $1 = "uninstall" ]; then
   pip3 uninstall -y ${PY_DIST_PKG_NAME}
 elif [ $1 = "build" ]; then
