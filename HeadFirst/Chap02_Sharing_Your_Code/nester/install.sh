@@ -14,7 +14,6 @@ elif [ $1 = "clean" ]; then
   rm -rf build/
   rm -rf dist/
   rm -rf *.egg-info/
-  rm -f MANIFEST
 fi
 
 PY_DIST_PKG_NAME=
