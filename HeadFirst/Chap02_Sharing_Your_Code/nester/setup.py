@@ -1,8 +1,8 @@
-from distutils.core import setup
+from setuptools import setup
 
 setup(
     name='nester-kaden',
-    version='1.0.0',
+    version='1.1.2',
     py_modules=['nester'],
     author='kaden-kykim',
     author_email='kaden.kykim@gmail.com',
